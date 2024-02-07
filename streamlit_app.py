@@ -30,7 +30,7 @@ def kalman_filter(height_measurement, prev_height_estimate, prev_height_covarian
 # Streamlit app
 def kalman_filter_app():
     # Load data from CSV file
-    filename = '/home/akash/Desktop/maths project/aircraft_dataset.csv'
+    filename = './aircraft_dataset.csv'
     data = pd.read_csv(filename)
 
     # Extract sensor measurements
